@@ -1,0 +1,25 @@
+/*==========================
+	Author: Dani Amsalem
+	theamsalems.com
+============================
+	Header Styling
+============================*/
+header.masthead {
+	position: relative;
+	background: url("../images/blockchain-rA.png") no-repeat center center;
+	padding-top: 10rem;
+	padding-bottom: 8rem;
+}
+
+header.masthead h1 {
+	font-size: 2rem;
+}
+
+/*==========================
+	Skills List Styling
+============================*/
+.container #sub-container {
+	margin: auto 20%;
+	text-align: left;
+	background-color: 
+}
