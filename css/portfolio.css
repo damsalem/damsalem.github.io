@@ -4,22 +4,36 @@
 ============================
 	Header Styling
 ============================*/
+html {
+    scroll-behavior: smooth
+}
 header.masthead {
 	position: relative;
-	background: url("../images/blockchain-rA.png") no-repeat center center;
+	background: url("../images/blockchain-rB.png") no-repeat center center;
 	padding-top: 10rem;
 	padding-bottom: 8rem;
 }
 
 header.masthead h1 {
-	font-size: 2rem;
+	font-size: 3rem;
+}
+
+#transparent-box  {
+	background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+	border-radius: 7px;
 }
 
 /*==========================
 	Skills List Styling
 ============================*/
 .container #sub-container {
-	margin: auto 20%;
+	margin: auto 33%;
 	text-align: left;
-	background-color: 
+}
+
+/*========================
+	Projects List Styling
+========================*/
+h2 #section-header {
+	text-align: center;
 }
