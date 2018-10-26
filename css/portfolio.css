@@ -12,6 +12,7 @@ header.masthead {
 	background: url("../images/blockchain-rB.png") no-repeat center center;
 	padding-top: 10rem;
 	padding-bottom: 8rem;
+	box-shadow: 0 0 50px 8px white inset;
 }
 
 header.masthead h1 {
@@ -19,21 +20,50 @@ header.masthead h1 {
 }
 
 #transparent-box  {
-	background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-	border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.6); /* Black w/opacity/see-through */
+	border-radius: 50px;
 }
+
+/*==========================
+	General Image Styling
+============================*/
+.container .row .col img {
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+}
+
+/*==========================
+	Projects Styling
+============================*/
+
 
 /*==========================
 	Skills List Styling
 ============================*/
-.container #sub-container {
-	margin: auto 33%;
-	text-align: left;
+#skills {
+	background-color: #ededed;
+	box-shadow: 0 0 50px 8px white inset;
+	padding: 0px 10%;
 }
 
 /*========================
-	Projects List Styling
+	Achievements Styling
 ========================*/
-h2 #section-header {
-	text-align: center;
+
+
+/*========================
+	Personal Styling
+========================*/
+#personal {
+	background-color: #ededed;
+	box-shadow: 0 0 50px 8px white inset;
+	padding: 0px 10%;
 }
+
+#personal .row .col img {
+	border-radius: 5px;
+}
+
+/*========================
+	Footer Styling
+========================*/
