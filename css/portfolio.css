@@ -34,9 +34,12 @@ header.masthead h1 {
 }
 
 /*==========================
-	Projects Styling
+	Contact Styling
 ============================*/
-
+.cta {
+  background-color: #70db70; /* Black w/opacity/see-through */
+	border-radius: 20px;
+}
 
 /*==========================
 	Skills List Styling
@@ -44,7 +47,6 @@ header.masthead h1 {
 #skills {
 	background-color: #ededed;
 	box-shadow: 0 0 50px 8px white inset;
-	padding: 0px 10%;
 }
 
 /*========================
