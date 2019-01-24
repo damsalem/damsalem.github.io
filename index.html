@@ -15,7 +15,7 @@
   <body>
 
 		<!-- ==Navigation bar== -->
-		<nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #ededed">
+		<nav class="navbar navbar-expand-md fixed-top">
 			<a class="navbar-brand" href="#">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +32,19 @@
 						<a class="nav-link" href="#projects">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#skillz">Skills</a>
+						<a class="nav-link" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#achievements">Achievements</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem">Github</a>
+						<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem" id="lightNav">Github</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dani-amsalem/">LinkedIn</a>
+						<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dani-amsalem/" id="lightNav">LinkedIn</a>
 					</li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="./pdfs/Dani_Amsalem_Blockchain_Resume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a>
+            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="./pdfs/Dani_Amsalem_Blockchain_Resume.pdf" id="lightNav"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a>
           </li>
 				</ul>
 			</div>
@@ -57,16 +57,36 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5.5 mx-auto mt-5" id="transparent-box">
-					<h1>Full Stack Dev</h1>
-					<h2>&amp; Blockchain Influencer</h2>
+					<h1>Front End Developer</h1>
+					<h2>Passionate about User Friendly Design</h2>
 					<h4>&mdash; Dani Amsalem &mdash;</h4>
 				</div>
 			</div>
 		</div>
 	</header>
-	<!-- ==Header Masthead== -->
 
-	<!-- ==Main Content== -->
+  <!-- ====================
+        Main Content
+  ===================== -->
+
+  <!-- Introduction -->
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-sm-8 offset-sm-2 text-left">
+        <h2 class="text-center">Introduction</h2>
+          <p>My name is Dani and I'm a front end developer, passionate about good design that captivates users and reduces friction. <strong>I specialize in: HTML, CSS, JS, and ASP.NET</strong> and I am looking for a full time role in NYC.
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="container-flex py-5">
+      <div class="row">
+        <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center cta">
+          <h3 style="font-weight:bold" class="mt-2">Contact Me</h3>
+          <p>Just copy and paste that 👉<strong>dani at theamsalems.com</strong></p>
+        </div>
+      </div>
+    </div>
 
   <!-- Recent Projects -->
 	<div class="container my-5 text-center" id="projects">
@@ -122,17 +142,9 @@
 			</div>
 		</div>
 	</div>
-  <div class="container-flex py-5" id="skillz">
-    <div class="row">
-      <div class="col-md-4 offset-md-4 text-center cta">
-        <h3 style="font-weight:bold" class="mt-2">Contact Me</h3>
-        <p>Just copy and paste that 👉<strong>dani at theamsalems.com</strong></p>
-      </div>
-    </div>
-  </div>
 
 <!-- Technical Skills -->
-<div class="container-flex mt-5 text-center">
+<div class="container-flex mt-5 text-center" id="skills">
   <div class="row">
     <div class="col-md-4 mx-auto">
       <h2>Technical Skills</h2>
@@ -161,16 +173,16 @@
   <div class="row my-5">
     <div class="col-sm-8 offset-sm-2 text-left">
       <h4 class="text-center">A Bit More About My Technical Skills</h4>
-        <p>I am proficient in <strong>HTML, CSS, JS (both Vanilla and jQuery, SQL, C#</strong> (including the .NET framework).
-        I have experience using a variety of Version Control tools including <strong>Git and Microsoft's Team Foundation Server</strong>.
+        <p>I am proficient in <strong>HTML, CSS, JS (both Vanilla and jQuery, and ASP.NET</strong>.
+        I have experience using a variety of Version Control tools including Git and Microsoft's Team Foundation Server.
         I write code using the Agile software development approach using the Scrum methodology.</p>
-        <p><strong>If I don't yet know a language you'd like me to know, please tell me because I'll learn it.</strong></p>
+        <p>Additional skills include: SQL and C# (including the .NET framework).</p>
     </div>
   </div>
 </div>
 
 <!-- Human Skills -->
-<div class="container-flex py-5" id="skills">
+<div class="container-flex py-5" id="relatedSkills">
   <h2 class="text-center">Related Skills</h2>
 		<div class="row my-5">
 			<div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-4">
@@ -265,33 +277,38 @@
           In other words, <strong>I cared a lot about usability and user-friendliness.</strong></p>
         <p>As I continued down my business-oriented path, I had many adventures including:</p>
           <ul>
-            <li><strong>Moved to NYC</strong> so my wife could attend Columbia University.</li>
-            <li>Worked as a <strong>remote e-commerce project manager</strong> for two different companies.</li>
-            <li><strong>Discovered blockchain tech</strong> and taught myself its language while building Decryptionary.</li>
+            <li><strong>Moving to NYC</strong> so my wife could attend Columbia University.</li>
+            <li>Working as a <strong>remote e-commerce project manager</strong> for two different companies.</li>
+            <li><strong>Discovering blockchain tech</strong> and taught myself its language while building Decryptionary.</li>
           </ul>
         <p>It quickly became apparent, the potential in front of me was boundless, if I only were a programmer.</p>
-        <p>I recently (Q4 2018) attended and completed <a href="https://learncodinganywhere.com/">The Tech Academy's Full Stack Developer Program</a> with a focus on
-          <strong>HTML, CSS, SQL, JS, and C#</strong> (using the .NET framework). With these languages in my toolbelt, I now feel equipped and confident when tackling
-          programming challenges. With my passion for UI/UX, emerging financial technologies such as blockchain, and my experience as an entrepreneur, I'm brimming with energy and new ideas.</p>
+        <p>I attended and completed <a href="https://learncodinganywhere.com/">The Tech Academy's Full Stack Developer Program</a> with a focus on
+          <strong>HTML, CSS, SQL, JS, and C#</strong> (using the .NET framework). With HTML and CSS crystallized in my mind, and additional languages in my toolbelt, I felt equipped
+          and confident when tackling programming challenges. Additionally, my passion for UI/UX and emerging financial technologies such as blockchain, combinded with my experience
+          as an entrepreneur, filled me with energy and new ideas.</p>
         <p><strong>If you're looking to create, work, or partner with an ambitious individual,</strong> with a passion for blockchain technology and a focus on user-friendly design,
           I urge you to reach out and make yourself known. At a minimum, we'll have one damn good conversation over coffee ☕</p>
       </div>
     </div>
 	</div>
 
-  <!-- Contact -->
+  <!-- Contact Me -->
   <div class="container-flex py-5">
     <div class="row">
-      <div class="col-md-4 offset-md-4 text-center cta">
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center cta">
         <h3 style="font-weight:bold" class="mt-2">Contact Me</h3>
         <p>Just copy and paste that 👉<strong>dani at theamsalems.com</strong></p>
       </div>
     </div>
   </div>
 
-	<!-- ==End Main Content== -->
+  <!-- ====================
+      End Main Content
+  ===================== -->
 
-	<!-- ==Footer== -->
+  <!-- ====================
+      Footer
+  ===================== -->
 
 			<div class="footer flex.container text-center py-4 pl-5">
 				<ul class="nav">
@@ -307,7 +324,9 @@
 				</ul>
 			</div>
 
-			<!-- ==End Footer== -->
+    <!-- ====================
+        End Footer
+    ===================== -->
 
     <!-- ==Optional JavaScript== -->
     <!-- ==jQuery first, then Popper.js, then Bootstrap JS== -->

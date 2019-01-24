@@ -1,7 +1,26 @@
 /*==========================
 	Author: Dani Amsalem
 	theamsalems.com
+
 ============================
+	Navbar Styling
+============================*/
+nav {
+  background-color: #ededed;
+}
+
+nav a{
+  color: #686868;
+}
+
+#lightNav {
+  color: #a0a0a0;
+}
+
+#lightNav:hover {
+  color: #3366bb;
+}
+/*============================
 	Header Styling
 ============================*/
 html {
@@ -37,22 +56,17 @@ header.masthead h1 {
 	Contact Styling
 ============================*/
 .cta {
-  background-color: #70db70; /* Black w/opacity/see-through */
+  background-color: #70db70;
 	border-radius: 20px;
 }
 
 /*==========================
-	Skills List Styling
+	Related Skills Styling
 ============================*/
-#skills {
+#relatedSkills {
 	background-color: #ededed;
 	box-shadow: 0 0 50px 8px white inset;
 }
-
-/*========================
-	Achievements Styling
-========================*/
-
 
 /*========================
 	Personal Styling
@@ -66,7 +80,3 @@ header.masthead h1 {
 #personal .row .col img {
 	border-radius: 5px;
 }
-
-/*========================
-	Footer Styling
-========================*/
