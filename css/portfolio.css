@@ -60,22 +60,14 @@ header.masthead h1 {
 	border-radius: 20px;
 }
 
-/*==========================
-	Related Skills Styling
-============================*/
-#relatedSkills {
-	background-color: #ededed;
-	box-shadow: 0 0 50px 8px white inset;
-}
-
 /*========================
 	Personal Styling
 ========================*/
-#personal {
+/* #personal {
 	background-color: #ededed;
 	box-shadow: 0 0 50px 8px white inset;
 	padding: 0px 10%;
-}
+} */
 
 #personal .row .col img {
 	border-radius: 5px;
