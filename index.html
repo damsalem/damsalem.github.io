@@ -15,27 +15,24 @@
   <body>
 
 		<!-- Navigation bar -->
-		<nav class="navbar navbar-expand-md fixed-top">
-			<a class="navbar-brand" href="#">
-			</a>
+		<nav class="navbar navbar-expand-md navbar-light fixed-top">
+			<a class="navbar-brand" href="#"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#top">Top<span class="sr-only">(current)</span></a>
-					</li>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link" href="#top" id="darkNav">Top</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#skills">Skills</a>
+						<a class="nav-link" href="#projects" id="darkNav">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#achievements-top">Achievements</a>
+						<a class="nav-link" href="#skills" id="darkNav">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#achievements" id="darkNav">Achievements</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem" id="lightNav">Github</a>
@@ -52,16 +49,13 @@
 		<!-- End Navigation bar -->
 
 	<!-- Header Masthead -->
-	<header class="masthead text-center" id="top">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5.5 mx-auto mt-5" id="transparent-box">
-					<h1>Front End Developer</h1>
-					<h2>Passionate about User Friendly Design</h2>
-					<h4>&mdash; Dani Amsalem &mdash;</h4>
-				</div>
-			</div>
+	<header class="masthead" id="top">
+    <img src="./images/bridge-r.jpg">
+		<div class="container text-center">
+      <h1>Front End Developer</h1>
+      <h2>Passionate about User-Friendly Design</h2>
+      <h5 id="one">Specializing in: HTML, CSS, JS &amp; ASP.NET.</h5>
+      <h5 id="two">Looking for a full-time role in NYC.</h5>
 		</div>
 	</header>
 
@@ -71,98 +65,115 @@
   =========================
   ===================== -->
 
-  <!-- =============
-    Introduction
-  ===============-->
-  <div class="container">
-    <div class="row my-5">
-      <div class="col-sm-8 offset-sm-2 text-left">
-        <h2 class="text-center">Introduction</h2>
-          <p>My name is Dani and I'm a front end developer, passionate about good design that captivates users and reduces friction. <strong>I specialize in: HTML, CSS, JS, and ASP.NET</strong> and I am looking for a full time role in NYC.
-      </div>
-    </div>
-
-    <!-- =============
-      Contact Me
-    ===============-->
-    <div class="container-flex py-5">
-      <div class="row">
-        <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center cta">
-          <h3 style="font-weight:bold" class="mt-2">Contact Dani</h3>
-          <a href="javascript:location='mailto:\u0064\u0061\u006e\u0069\u0040\u0074\u0068\u0065\u0061\u006d\u0073\u0061\u006c\u0065\u006d\u0073\u002e\u0063\u006f\u006d';void 0"><h4>Click Here to Email Me</h4></a>
-        </div>
-      </div>
-    </div>
-
     <!-- =============
       Recent Projects
     ===============-->
-	<div class="container my-5 text-center" id="projects">
-		<h2>Recent Projects</h2>
-	</div>
-	<div class="container-projects">
+	<div class="container-projects text-center pt-5" id="projects">
+      <h2>Recent Projects</h2>
 		<div class="row mt-3">
-			<div class="col-md-5 offset-md-1 col-lg-6 offset-lg-0 mb-3">
+			<div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-5 offset-md-1 col-lg-5 offset-lg-1 mb-3 text-center">
 				<a target="_blank" rel="noopener noreferrer" href="https://decryptionary.com/">
 					<img src="./images/decryptionary.gif" style="width:300px;height:166px;" alt="Decryptionary" title="Decryptionary.com" loop="infinite" class="mb-2">
 				</a>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://decryptionary.com/" target="_blank" rel="noopener noreferrer"><strong>Decryptionary.com </a>&mdash; The Simplest Bitcoin & Blockchain Dictionary</strong></p>
-        <ul>
+        <p class="text-left"><a target="_blank" rel="noopener noreferrer" href="https://decryptionary.com/" target="_blank" rel="noopener noreferrer"><strong>Decryptionary.com </a>&mdash; The Simplest Bitcoin & Blockchain Dictionary</strong></p>
+        <ul class="text-left">
           <li>Constructed within Wordpress.</li>
           <li>Contains hundreds and hundreds of entries.</li>
           <li>Frequently mentioned by <a target="_blank" rel="noopener noreferrer" href="https://decryptionary.com/media-kit/">social media influencers</a>.</li>
         </ul>
 			</div>
-      <div class="col-md-5 offset-md-1 col-lg-5 mb-3">
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 mb-3 text-center">
           <a target="_blank" rel="noopener noreferrer" href="http://theamsalems.com/Convert-PSD-to-HTML/">
             <img src="./images/psd-html.gif" style="width:300px;height:166px;" alt="PSD to HTML" title="PSD to HTML" loop="infinite" class="mb-2">
           </a>
-          <p><a target="_blank" rel="noopener noreferrer" href="http://theamsalems.com/Convert-PSD-to-HTML/"><strong>PSD to HTML </a>&mdash; Slice, Code, then Arrange.</strong></p>
-          <ul>
+          <p class="text-left"><a target="_blank" rel="noopener noreferrer" href="http://theamsalems.com/Convert-PSD-to-HTML/"><strong>PSD to HTML </a>&mdash; Slice, Code, then Arrange.</strong></p>
+          <ul class="text-left">
             <li>Sliced the PSD file in a photo editor.</li>
             <li>Built the page in HTML and CSS including Bootstrap.</li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem/Convert-PSD-to-HTML">Source code available here.</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem/Convert-PSD-to-HTML">Source code and original PSD available here.</a></li>
           </ul>
         </div>
     </div>
     
 		<div class="row py-3">
-      <div class="col-md-5 offset-md-1 col-lg-6 offset-lg-0">
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-5 offset-md-1 col-lg-5 offset-lg-1 mb-3 text-center">
         <a target="_blank" rel="noopener noreferrer" href="http://tileplus.net">
           <img src="./images/tileplus-site.png" style="width:300px;height:151px;" alt="TilePlus" title="TilePlus.net" loop="infinite" class="mb-4">
         </a>
-        <p><a target="_blank" rel="noopener noreferrer" href="http://tileplus.net"><strong>Tile Plus </a>&mdash;  Timeless, Beautiful, Tile Installations.</strong></p>
-        <ul>
+        <p class="text-left"><a target="_blank" rel="noopener noreferrer" href="http://tileplus.net"><strong>Tile Plus </a>&mdash;  Timeless, Beautiful, Tile Installations.</strong></p>
+        <ul class="text-left">
           <li>An early project constructed using a WYSIWYG editor.</li>
           <li>Strong focus on user-friendly design and lead-generation funnels.</li>
-          <li>Still actively generating hot leads.</li>
+          <li><a target="_blank" rel="noopener noreferrer" href="./images/tileplus-site-old.png">Screenshot of original site available here.</a></li>
         </ul>
       </div>
-      <div class="col-md-5 offset-md-1 col-lg-5 mb-3">
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 mb-3 text-center">
           <a target="_blank" rel="noopener noreferrer" href="https://theamsalems.com/Interactive-Javascript-Pizza-Website/">
             <img src="./images/pizza-site.gif" style="width:300px;height:166px;" alt="Pizza Site" title="Pizza Site" loop="infinite" class="mb-2">
           </a>
-          <p><a target="_blank" rel="noopener noreferrer" href="https://theamsalems.com/Interactive-Javascript-Pizza-Website/"><strong>Pizza Pies </a>&mdash; Good enough to make you hungry!</strong></p>
-          <ul>
+          <p class="text-left"><a target="_blank" rel="noopener noreferrer" href="https://theamsalems.com/Interactive-Javascript-Pizza-Website/"><strong>Pizza Pies </a>&mdash; Good enough to make you hungry!</strong></p>
+          <ul class="text-left">
             <li>Constructed using HTML, CSS, and Javascript.</li>
             <li>Interactive buttons and menu design.</li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem/Interactive-Javascript-Pizza-Website">Source code available here.</a></li>
           </ul>
         </div>
-		</div>
-	</div>
+    </div>
+  </div>
+  <div class="container-other-projects">
+    <div class="row my-5">
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 text-left">
+        <h4 class="text-center">Other Projects</h4>
+        <ul>
+          <li><strong>Insurance Quote App</strong></li>
+            <ul>
+              <li>Web app to collect user information and generate an insurance quote.</li>
+              <li>Built in Microsoft's MVC using C#, Entity Framework, ASP.NET, & SQL.</li>
+              <li><a href="">Source code available here.</a></li>
+            </ul>
+            <br />
+          <li><strong>Library Database</strong></li>
+            <ul>
+              <li>Database to store multiple libraries and their customers.</li>
+              <li>Built using SQL.</li>
+              <li><a href="">Source code available here.</a></li>
+            </ul>
+          <br />
+          <li><strong>Blackjack Game</strong></li>
+            <ul>
+              <li>Casino console app built using generics to allow for additional games.</li>
+              <li>Built in C#.</li>
+              <li><a href="">Source code available here.</a></li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============
+      Contact Me
+    ===============-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-success" id="contact-dani" onclick="location.href='mailto:dani@theamsalems.com';">
+          <h3>Contact Dani</h3>
+        </button>
+      </div>
+    </div>
+  </div>
 
   <!-- =============
     Technical Skills
   ===============-->
-<div class="container-flex mt-5 text-center" id="skills">
+<div class="container-flex mt-5 pt-5 text-center" id="skills">
   <div class="row">
     <div class="col-md-4 mx-auto">
       <h2>Technical Skills</h2>
     </div>
   </div>
   <div class="row my-5 mx-5">
-    <div class="col-sm-6 col-md-3 offset-md-1 col-lg-3 offset-lg-0 mb-2">
+    <div class="col-sm-6 col-md-3 offset-md-0 col-lg-3 offset-lg-0 mb-2">
       <img src="./images/shield-html.png" style="width:200px;height:200px;" alt="html-language" title="html-language" loop="infinite">
     </div>
     <div class="col-sm-6 col-md-3 offset-md-1 col-lg-3 offset-lg-0 mb-2">
@@ -171,7 +182,7 @@
     <div class="col-sm-6 col-md-3 offset-md-1 col-lg-3 offset-lg-0 mb-2">
       <img src="./images/shield-uiux.png" style="width:200px;height:200px;" alt="ui-ux" title="ui-ux" loop="infinite">
     </div>
-    <div class="col-sm-6 col-md-3 offset-md-1 col-lg-3 offset-lg-0 mb-2">
+    <div class="col-sm-6 col-md-3 offset-md-0 col-lg-3 offset-lg-0 mb-2">
       <img src="./images/shield-wp.png" style="width:200px;height:200px;" alt="wordpress" title="wordpress" loop="infinite">
     </div>
     <div class="col-sm-6 col-md-3 offset-md-1 col-lg-3 offset-lg-0 mb-2">
@@ -180,16 +191,16 @@
     <div class="col-sm-6 col-md-3 offset-md-1 col-lg-3 offset-lg-0 mb-2">
       <img src="./images/shield-sql.png" style="width:200px;height:200px;" alt="sql-language" title="sql-language" loop="infinite">
     </div>
-    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-3 offset-lg-0 mb-2">
+    <div class="col-sm-6 col-md-4 offset-md-2 col-lg-3 offset-lg-0 mb-2">
       <img src="./images/shield-c-sharp.png" style="width:200px;height:200px;" alt="c-sharp-language" title="c-sharp-language" loop="infinite">
     </div>
-    <div class="col-sm-6 col-md-4 offset-md-1 col-lg-3 offset-lg-0 mb-2">
+    <div class="col-sm-6 col-md-4 offset-md-0 col-lg-3 offset-lg-0 mb-2">
       <img src="./images/shield-agile.png" style="width:200px;height:200px;" alt="agile-methodology" title="agile-methodology" loop="infinite">
     </div>
     
   </div>
   <div class="row my-5">
-    <div class="col-sm-8 offset-sm-2 text-left">
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 col-lg-8 offset-lg-2 text-left">
       <h4 class="text-center">A Bit More About My Skills</h4>
         <p>I am proficient in <strong>HTML, CSS (Bootstrap), JS (both Vanilla and jQuery), and ASP.NET</strong>.
         I have experience using a variety of Version Control tools including Git and Microsoft's Team Foundation Server.
@@ -207,17 +218,15 @@
   <!-- =============
     Achievements
   ===============-->
-	<div class="container-flex pt-5" id="achievements-top">
-			<h2 class="text-center">Achievements</h2>
-		</div>
-	<div class="container pb-5 text-center" id="achievements">
-		<div class="row my-5">
-			<div class="col mb-3">
+	<div class="container text-center pt-5" id="achievements">
+      <h2 class="text-center">Achievements</h2>
+		<div class="row mt-5">
+			<div class="offset-0 col-sm-10 offset-sm-1 col-md-5 offset-md-0 col-lg-5 offset-lg-1 mb-3 text-center">
 				<a target="_blank" rel="noopener noreferrer" href="https://www.upfolio.com/blockchain-influencers">
 					<img src="./images/blockchain-influencer.gif" style="width:300px;height:166px;" alt="Upfolio's 2018 Blockchain Influencers" title="Upfolio's 2018 Blockchain Influencers" loop="infinite">
 				</a>
-			</div>
-			<div class="col-md-6 text-left">
+      </div>
+			<div class="col offset-1 text-left">
 				<a target="_blank" rel="noopener noreferrer" href="https://www.upfolio.com/blockchain-influencers"><strong>Recognized as a Top 100 Blockchain Influencer</strong></a>
         <ul>
 					<li>Upfolio recognized me in 2018 for co-hosting the Crypto101 Podcast.</li>
@@ -226,11 +235,11 @@
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col mb-3">
+      <div class="offset-0 col-sm-10 offset-sm-1 col-md-5 offset-md-0 col-lg-5 offset-lg-1 mb-3 text-center">
 				<a target="_blank" rel="noopener noreferrer" href="https://medium.com/@daniamsalem">
 					<img src="./images/medium.png" style="width:300px;height:166px;" alt="Medium.com, Dani's Stats" title="Medium.com, Dani's Stats" loop="infinite">
 			</div>
-			<div class="col-md-6 text-left">
+			<div class="col offset-1 text-left">
 				<a target="_blank" rel="noopener noreferrer" href="https://medium.com/@daniamsalem"><strong>Successful Medium.com Author</strong></a>
 				<ul>
 					<li>Published dozens of articles, primarily instructional.</li>
@@ -240,11 +249,11 @@
 			</div>
     </div>
     <div class="row mt-5">
-      <div class="col">
+        <div class="offset-0 col-sm-10 offset-sm-1 col-md-5 offset-md-0 col-lg-5 offset-lg-1 mb-3 text-center">
         <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/CRYPTO-101-Johnnys-Guide-Cryptocurrency-ebook/dp/B07JR1J81V/">
         <img src="./images/johnny's-guide-to-cryptocurrency.png" style="width:300px;height:140px;" alt="Book Johnny's Guide to Crypto" title="Book, Johnny's Guide to Crypto">
       </div>
-      <div class="col-md-6 text-left">
+      <div class="col offset-1 text-left">
         <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/CRYPTO-101-Johnnys-Guide-Cryptocurrency-ebook/dp/B07JR1J81V/"><strong>Co-authored Johnny's Guide to Cryptocurrency</strong></a>
         <ul>
           <li>Contributed to the story-writing process.</li>
@@ -260,25 +269,23 @@
 	<div class="container-flex py-5 mt-5 text-center" id="personal">
 			<h2>Personal Life</h2>
 		<div class="row my-5">
-			<div class="col-md-6 col-lg-4 offset-lg-1 mb-3 mt-4">
+			<div class="offset-1 col-sm-10 offset-sm-1 col-md-5 col-lg-6 offset-lg-1 mb-3">
 				<img src="./images/dani.jpg" style="width:300px;height:166px;" alt="dani-amsalem" title="dani-amsalem" loop="infinite">
-				</a>
-			</div>
-			<div class="col-xs-10 offset-sm-1 col-md-6 offset-md-0 col-lg-6 offset-lg-1 text-left mt-4">
+      </div>
+      
+			<div class="col-10 offset-1 col-sm-10 offset-sm-3 col-md-5 offset-md-0 col-lg-5 offset-lg-0 text-left mt-3">
         <p><strong>5 Highlights About Dani Amsalem:</strong></p>
         <ul class="highlights">
 					<li>Husband &mdash; married since 2017.</li>
           <li>Entrepreneur &mdash; exploring, testing, and breaking.</li>
-					<li>Autodidact &mdash; crusader of non-fiction.</li>
+					<li>Autodidact &mdash; crusader of self-learning.</li>
           <li>Technologist &mdash; born in Silicon Valley, CA.</li>
         </ul>
 			</div>
 		</div>
     <div class="row mt-5">
-      <div class="col-md-12">
-        <h4>Why I Never Cared About Tech Until After I Left Silicon Valley</h4>
-      </div>
-      <div class="col-md-8 mx-auto text-left">
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 col-lg-8 offset-lg-2 text-left">
+          <h4 class="text-center">Why I Never Cared About Tech Until After I Left Silicon Valley</h4>
         <p>Yeah, I was born in Santa Clara, California, home to massive tech companies like Apple, Google (Alphabet), eBay, PayPal, Intel, and many more.
           Other than learning how to type, I never seemed interested in computers and technology.</p>
         <p>However, once the entrepreneurial bug hit me, <strong>I found myself learning how to build websites</strong> using <i>What You See Is What You Get</i> (WYSIWYG) editors
@@ -300,17 +307,18 @@
     </div>
 	</div>
 
-  <!-- =============
-    Contact Me
-  ===============-->
-  <div class="container-flex py-5">
-    <div class="row">
-      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center cta">
-        <h3 style="font-weight:bold" class="mt-2">Contact Dani</h3>
-        <a href="javascript:location='mailto:\u0064\u0061\u006e\u0069\u0040\u0074\u0068\u0065\u0061\u006d\u0073\u0061\u006c\u0065\u006d\u0073\u002e\u0063\u006f\u006d';void 0"><h4>Click Here to Email Me</h4></a>
+<!-- =============
+      Contact Me
+    ===============-->
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-success" id="contact-dani" onclick="location.href='mailto:dani@theamsalems.com';">
+              <h3>Contact Dani</h3>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
   <!-- ====================
   =========================
