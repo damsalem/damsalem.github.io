@@ -9,16 +9,16 @@ nav {
   background-color: #ededed;
 }
 
-nav a{
+nav a {
   color: #686868;
 }
 
-#darkNav{
-	color: #575656
+#darkNav {
+  color: #575656;
 }
 
-#darkNav:hover{
-	color: #3366bb
+#darkNav:hover {
+  color: #3366bb;
 }
 
 #lightNav {
@@ -33,330 +33,334 @@ nav a{
 	Main Styling
 ============================*/
 html {
-	scroll-behavior: smooth;
-	overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*============================
 	Header Styling
 ============================*/
 .masthead {
-	position: relative;
+  position: relative;
 }
 
-.masthead img{
-	position: relative;
-	height: 100%;
-	width: 101%;
-	margin-top: 35px;
-	opacity: 0.7;
+.masthead img {
+  position: relative;
+  height: 100%;
+  width: 101%;
+  margin-top: 35px;
+  opacity: 0.7;
 }
 
 /* For phones */
 .masthead .container h1 {
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%);
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	font-size: 17px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 17px;
 }
 
 .masthead .container h2 {
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%);
-	position: absolute;
-	font-size: 50px;
-	top: 50%;
-	left: 50%;
-	font-size: 13px;
-	width: 500px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  font-size: 13px;
+  width: 500px;
 }
 
 .masthead .container h5#one {
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%);
-	position: absolute;
-	font-size: 50px;
-	top: 59%;
-	left: 50%;
-	font-size: 10px;
-	width: 250px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 50px;
+  top: 59%;
+  left: 50%;
+  font-size: 10px;
+  width: 250px;
 }
 
 .masthead .container h5#two {
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%);
-	position: absolute;
-	font-size: 50px;
-	top: 66%;
-	left: 50%;
-	font-size: 10px;
-	width: 250px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 50px;
+  top: 66%;
+  left: 50%;
+  font-size: 10px;
+  width: 250px;
 }
 
-@media only screen and (min-width: 500px){
-	/* For small tablets: */
-	.masthead .container h1 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		top: 37%;
-		left: 50%;
-		font-size: 22px;
-	}
-	
-	.masthead .container h2 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 48%;
-		left: 50%;
-		font-size: 17px;
-	}
-	
-	.masthead .container h5#one {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 58%;
-		left: 50%;
-		font-size: 12px;
-	}
-	
-	.masthead .container h5#two {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 65%;
-		left: 50%;
-		font-size: 12px;
-	}
+@media only screen and (min-width: 500px) {
+  /* For small tablets: */
+  .masthead .container h1 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    font-size: 22px;
+  }
+
+  .masthead .container h2 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 48%;
+    left: 50%;
+    font-size: 17px;
+  }
+
+  .masthead .container h5#one {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 58%;
+    left: 50%;
+    font-size: 12px;
+  }
+
+  .masthead .container h5#two {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 65%;
+    left: 50%;
+    font-size: 12px;
+  }
 }
 
-@media only screen and (min-width: 700px){
-	/* For tablets: */
-	.masthead .container h1 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		top: 35%;
-		left: 50%;
-		font-size: 30px;
-		width: 100%;
-	}
-	
-	.masthead .container h2 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 46%;
-		left: 50%;
-		font-size: 20px;
-		width: 100%;
-	}
-	
-	.masthead .container h5#one {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 55%;
-		left: 50%;
-		font-size: 15px;
-		width: 100%;
-	}
-	
-	.masthead .container h5#two {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 61%;
-		left: 50%;
-		font-size: 15px;
-		width: 100%;
-	}
+@media only screen and (min-width: 700px) {
+  /* For tablets: */
+  .masthead .container h1 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .masthead .container h2 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 46%;
+    left: 50%;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .masthead .container h5#one {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 55%;
+    left: 50%;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .masthead .container h5#two {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 61%;
+    left: 50%;
+    font-size: 15px;
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 900px){
-	/* For small desktops: */
-	.masthead .container h1 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		top: 35%;
-		left: 50%;
-		font-size: 42px;
-	}
-	
-	.masthead .container h2 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 46%;
-		left: 50%;
-		font-size: 26px;
-	}
-	
-	.masthead .container h5#one {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 55%;
-		left: 50%;
-		font-size: 20px;
-	}
-	
-	.masthead .container h5#two {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%,-50%);
-		position: absolute;
-		font-size: 50px;
-		top: 61%;
-		left: 50%;
-		font-size: 20px;
-	}
+@media only screen and (min-width: 900px) {
+  /* For small desktops: */
+  .masthead .container h1 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 42px;
+  }
+
+  .masthead .container h2 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 46%;
+    left: 50%;
+    font-size: 26px;
+  }
+
+  .masthead .container h5#one {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 55%;
+    left: 50%;
+    font-size: 20px;
+  }
+
+  .masthead .container h5#two {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 61%;
+    left: 50%;
+    font-size: 20px;
+  }
 }
 
-@media only screen and (min-width: 1200px){
-	/* For large desktops: */
-	.masthead .container h1 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-  	transform: translate(-50%,-50%);
-  	position: absolute;
-		top: 35%;
-		left: 50%;
-		font-size: 50px;
-	}
-	.masthead .container h2 {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-  	transform: translate(-50%,-50%);
-  	position: absolute;
-		font-size: 50px;
-		top: 45%;
-		left: 50%;
-		font-size: 32px;
-	}
-	
-	.masthead .container h5#one {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-  	transform: translate(-50%,-50%);
-  	position: absolute;
-		font-size: 50px;
-		top: 52%;
-		left: 50%;
-		font-size: 20px;
-	}
-	
-	.masthead .container h5#two {
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-  	transform: translate(-50%,-50%);
-  	position: absolute;
-		font-size: 50px;
-		top: 57%;
-		left: 50%;
-		font-size: 20px;
-	}
+@media only screen and (min-width: 1200px) {
+  /* For large desktops: */
+  .masthead .container h1 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 50px;
+  }
+  .masthead .container h2 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 45%;
+    left: 50%;
+    font-size: 32px;
+  }
+
+  .masthead .container h5#one {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 52%;
+    left: 50%;
+    font-size: 20px;
+  }
+
+  .masthead .container h5#two {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    top: 57%;
+    left: 50%;
+    font-size: 20px;
+  }
 }
 
 /*==========================
 	Projects Styling
 ============================*/
-.container-projects ul{
-	list-style: inside;
-	padding-left: 0;
+.container-projects ul {
+  list-style: inside;
+  padding-left: 0;
 }
 
 #projects img {
-	border: 1px solid #c1c1c1;
-	border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
 }
 
 #projects img:hover {
-	opacity: 0.6;
+  opacity: 0.6;
+}
+
+#projects video:hover {
+  opacity: 0.7;
 }
 
 /*==========================
 	Contact Styling
 ============================*/
 
-#contact-dani{
-	width: 70%;
-	height: 75px;
+#contact-dani {
+  width: 70%;
+  height: 75px;
 }
 
-@media only screen and (min-width: 400px){
-	#contact-dani {
-		width: 350px;
-		height: 75px;
-	}
+@media only screen and (min-width: 400px) {
+  #contact-dani {
+    width: 350px;
+    height: 75px;
+  }
 }
 
 /*========================
@@ -364,24 +368,28 @@ html {
 ========================*/
 
 #skills img:hover {
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 /*========================
 	Achievements Styling
 ========================*/
-#achievements ul{
-	list-style: inside;
-	padding-left: 0;
+#achievements ul {
+  list-style: inside;
+  padding-left: 0;
 }
 
 #achievements img {
-	border: 1px solid #c1c1c1;
-	border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
 }
 
 #achievements img:hover {
-	opacity: 0.6;
+  opacity: 0.6;
+}
+
+#achievements video:hover {
+  opacity: 0.7;
 }
 
 /*========================
@@ -389,20 +397,20 @@ html {
 ========================*/
 
 #personal .row .col img {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
-#personal ul.highlights{
-	float: left;
+#personal ul.highlights {
+  float: left;
   padding: 0;
   list-style-type: none;
 }
 
 #personal img {
-	border: 1px solid #c1c1c1;
-	border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
 }
 
 #personal img:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
