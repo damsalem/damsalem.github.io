@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+nav {
+  background-color: #ededed;
+
+  li {
+    #dark-nav {
+      color: #575656;
+    }
+  }
+}
+
+header {
+  background-image: url(.././images/bridge-rA.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 80vh;
+
+  .header__primary-content {
+    padding: 150px 0px;
+
+    h1 {
+      font-size: 2.5em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.contact-me {
+  margin: 20px auto 0px auto;
+
+  .cm-col {
+    display: flex;
+    justify-content: center;
+
+    .contact-btn {
+      padding: 0.5em 2em;
+
+      a {
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.recent-projects {
+  margin: 80px 0px 0px 0px;
+
+  .s1 {
+    text-align: center;
+  }
+}
