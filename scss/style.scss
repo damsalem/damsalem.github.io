@@ -1,3 +1,6 @@
+// Google Font
+// font-family: 'Cabin', sans-serif;
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,32 +10,58 @@ body {
   background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cabin", sans-serif !important;
+}
+
+p,
+ul,
+ol,
+li {
+  font-family: "Cabin", sans-serif !important;
+}
+
 nav {
-  background-color: #ededed;
+  background-color: rgba(237, 237, 237, 0.5);
 
   li {
     #dark-nav {
       color: #575656;
+
+      &:hover {
+        color: initial;
+      }
     }
   }
 }
 
 header {
-  background-image: url(.././images/bridge-rA.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   text-align: center;
-  height: 80vh;
+  max-height: 85vh;
+  overflow: hidden;
 
-  .header__primary-content {
-    padding: 150px 0px;
+  .row {
+    align-content: center;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  .h-primary-content {
+    position: absolute;
 
     h1 {
       font-size: 2.5em;
     }
     h3 {
       font-size: 1.5em;
+      font-weight: bold;
     }
   }
 }
@@ -64,3 +93,35 @@ header {
     text-align: center;
   }
 }
+
+////
+//// BOOTSTRAP'S MEDIA QUERIES
+////
+
+//EXTRA SMALL devices (phones up to 768px):
+@media only screen and (max-width: 768px) {
+  // Style goes here
+  //
+}
+//// END EXTRA SMALL DEVICES
+
+//SMALL devices (tablets, 768px and up):
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  // Style goes here
+  //
+}
+//// END SMALL DEVICES
+
+//MEDIUM devices (desktops, 992px and up):
+@media only screen and (max-width: 1200px) {
+  // Style goes here
+  //
+}
+//// END MEDIUM DEVICES
+
+//LARGE devices (large desktops, 1200px and up):
+@media only screen and (min-width: 1200px) {
+  // Style goes here
+  //
+}
+//// END LARGE DEVICES
