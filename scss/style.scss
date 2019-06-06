@@ -45,12 +45,12 @@ header {
   overflow: hidden;
 
   .row {
-    align-content: center;
+    align-items: center;
   }
 
   video {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .h-primary-content {
