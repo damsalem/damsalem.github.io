@@ -14,7 +14,6 @@
 
   <body>
 
-    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +21,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav navigation">
           <li class="nav-item navbar-text">
             <a id="dark-nav" class="nav-link" href="#top">Top</a>
           </li>
@@ -36,20 +35,18 @@
             <a id="dark-nav" class="nav-link" href="#achievements">Achievements</a>
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem">Github</a>
+            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="./pdfs/Dani_Amsalem_Web_Resume.pdf">Resume<i class="fas fa-download"></i></a>
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dani-amsalem/">LinkedIn</a>
+            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/damsalem"><i class="fab fa-github-square"></i></a>
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="./pdfs/Dani_Amsalem_Web_Resume.pdf"><i class="far fa-file-pdf"></i> Resume</a>
+            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dani-amsalem/"><i class="fab fa-linkedin"></i></a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- End Navigation bar -->
 
-    <!-- Header -->
     <header>
       <div class="container-fluid">
         <div class="row">
@@ -62,35 +59,26 @@
               <h1>Expert in Process Documentation</h1>
               <h3>Giving You A Better Web Experience</h3>
           </div>
+          <a href="#icon-scroll"><i id="icon" class="fas fa-sort-down"></i></a>
         </div>
       </div>
     </header>
 
-    <!-- ====================
-    =========================
-          Main Content
-    =========================
-    ===================== -->
+    <div id="icon-scroll" class="container"></div>
 
-    <!-- =============
-      Contact Me
-    ===============-->
     <div class="container-fluid contact-me">
       <div class="row">
         <div class="col cm-col">
-          <button type="button" class="btn btn-success contact-btn">
+          <button type="button" class="btn contact-btn">
             <a href="mailto:dani@theamsalems.com">Contact Dani</a>  
           </button>
         </div>
       </div>
     </div>
 
-    <!-- =============
-      Recent Projects
-    ===============-->
-    <section class="recent-projects" id="projects">
+    <section id="projects">
       <div class="container-fluid s1">
-          <h2>Recent Projects</h2>
+          <h2>Recent Web Projects</h2>
 
         <div class="row">
 
@@ -200,42 +188,38 @@
           </div>
 
         </div>
+
+        <div class="row my-5">
+          <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 text-left">
+            <h2 class="text-center">Other Projects (C# and SQL)</h2>
+            <ul>
+              <li><strong>Insurance Quote App</strong></li>
+                <ul>
+                  <li>Web app to collect user information and generate an insurance quote.</li>
+                  <li>Built in Microsoft's MVC using C#, Entity Framework, ASP.NET, & SQL.</li>
+                  <li><a href="">Source code available here.</a></li>
+                </ul>
+                <br />
+              <li><strong>Library Database</strong></li>
+                <ul>
+                  <li>Database to store multiple libraries and their customers.</li>
+                  <li>Built using SQL.</li>
+                  <li><a href="">Source code available here.</a></li>
+                </ul>
+              <br />
+              <li><strong>Blackjack Game</strong></li>
+                <ul>
+                  <li>Casino console app built using generics to allow for additional games.</li>
+                  <li>Built in C#.</li>
+                  <li><a href="">Source code available here.</a></li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <div class="container-other-projects">
-      <div class="row my-5">
-        <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 text-left">
-          <h3 class="text-center">Other Projects (C# and SQL)</h3>
-          <ul>
-            <li><strong>Insurance Quote App</strong></li>
-              <ul>
-                <li>Web app to collect user information and generate an insurance quote.</li>
-                <li>Built in Microsoft's MVC using C#, Entity Framework, ASP.NET, & SQL.</li>
-                <li><a href="">Source code available here.</a></li>
-              </ul>
-              <br />
-            <li><strong>Library Database</strong></li>
-              <ul>
-                <li>Database to store multiple libraries and their customers.</li>
-                <li>Built using SQL.</li>
-                <li><a href="">Source code available here.</a></li>
-              </ul>
-            <br />
-            <li><strong>Blackjack Game</strong></li>
-              <ul>
-                <li>Casino console app built using generics to allow for additional games.</li>
-                <li>Built in C#.</li>
-                <li><a href="">Source code available here.</a></li>
-              </ul>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- =============
-        Contact Me
-      ===============-->
       <div class="container-fluid contact-me">
         <div class="row">
           <div class="col cm-col">

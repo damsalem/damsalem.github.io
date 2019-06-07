@@ -28,6 +28,10 @@ li {
 nav {
   background-color: rgba(237, 237, 237, 0.5);
 
+  .navigation {
+    padding-left: 100px;
+  }
+
   li {
     #dark-nav {
       color: #575656;
@@ -41,7 +45,7 @@ nav {
 
 header {
   text-align: center;
-  max-height: 85vh;
+  // max-height: 85vh;
   overflow: hidden;
 
   .row {
@@ -64,10 +68,26 @@ header {
       font-weight: bold;
     }
   }
+
+  a {
+    margin: -10% auto 0 auto;
+
+    #icon {
+      color: initial;
+      position: relative;
+      opacity: 0.6;
+      font-size: 4em;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.3;
+      }
+    }
+  }
 }
 
 .contact-me {
-  margin: 20px auto 0px auto;
+  margin: 80px auto 0px auto;
 
   .cm-col {
     display: flex;
@@ -75,19 +95,35 @@ header {
 
     .contact-btn {
       padding: 0.5em 2em;
+      background-color: #248f24;
+      transition: 500ms;
+
+      &:hover {
+        background-color: #29a329;
+        // text-decoration: underline;
+      }
 
       a {
         color: #fff;
         font-size: 2em;
         font-weight: bold;
         text-transform: uppercase;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }
 }
 
-.recent-projects {
+#projects {
   margin: 80px 0px 0px 0px;
+
+  h2 {
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
 
   .s1 {
     text-align: center;
