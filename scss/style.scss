@@ -25,6 +25,12 @@ li {
   font-family: "Cabin", sans-serif !important;
 }
 
+img {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
 nav {
   background-color: rgba(237, 237, 237, 0.5);
 
