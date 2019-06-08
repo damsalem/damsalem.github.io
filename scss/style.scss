@@ -135,12 +135,31 @@ header {
   margin: 80px 0px 0px 0px;
 
   h2 {
-    padding-bottom: 30px;
     font-weight: bold;
+    text-align: center;
   }
 
-  .s1 {
-    text-align: center;
+  .proj-1 {
+  }
+
+  .media-box {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 50px 0px 30px 0px;
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .proj-2 {
+    padding: 80px 0px 0px 0px;
   }
 }
 
@@ -169,21 +188,34 @@ header {
 
 //SMALL devices (tablets, 768px and up):
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  // Style goes here
+  #projects {
+    .media-box {
+      height: 181px;
+    }
+  }
   //
 }
 //// END SMALL DEVICES
 
 //MEDIUM devices (desktops, 992px and up):
-@media only screen and (max-width: 1200px) {
-  // Style goes here
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #projects {
+    .media-box {
+      height: 247px;
+    }
+  }
   //
 }
 //// END MEDIUM DEVICES
 
 //LARGE devices (large desktops, 1200px and up):
 @media only screen and (min-width: 1200px) {
-  // Style goes here
+  #projects {
+    .media-box {
+      width: 510px;
+      height: 280px;
+    }
+  }
   //
 }
 //// END LARGE DEVICES
