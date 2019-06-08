@@ -183,6 +183,65 @@ header {
   }
 }
 
+#achievements {
+  padding-top: 30px;
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0;
+  }
+
+  .s1 {
+    align-items: center;
+    margin-top: -50px;
+  }
+
+  .media-box {
+    margin: 50px 0px 30px 0px;
+
+    video {
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+#personal {
+  padding-top: 30px;
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .s1 {
+    align-items: center;
+  }
+
+  .media-box {
+    padding-bottom: 30px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 3em 0 1.5em 3em;
+}
+
 ////
 //// BOOTSTRAP'S MEDIA QUERIES
 ////
