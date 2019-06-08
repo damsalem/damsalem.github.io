@@ -132,14 +132,16 @@ header {
 }
 
 #projects {
-  margin: 80px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
 
   h2 {
     font-weight: bold;
     text-align: center;
+    padding: 50px 0;
   }
 
   .proj-1 {
+    margin-top: -50px;
   }
 
   .media-box {
@@ -159,7 +161,25 @@ header {
   }
 
   .proj-2 {
-    padding: 80px 0px 0px 0px;
+  }
+}
+
+#skills {
+  padding-top: 30px;
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+  .row {
+    justify-content: center;
   }
 }
 
@@ -204,6 +224,12 @@ header {
       height: 247px;
     }
   }
+
+  #skills {
+    .shields {
+      margin: 0 15px;
+    }
+  }
   //
 }
 //// END MEDIUM DEVICES
@@ -214,6 +240,12 @@ header {
     .media-box {
       width: 510px;
       height: 280px;
+    }
+  }
+
+  #skills {
+    .shields {
+      margin: 0 15px;
     }
   }
   //
