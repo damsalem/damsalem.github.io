@@ -51,11 +51,12 @@ nav {
 
 header {
   text-align: center;
-  // max-height: 85vh;
   overflow: hidden;
 
   .row {
     align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
   }
 
   video {
@@ -76,11 +77,11 @@ header {
   }
 
   a {
-    margin: -10% auto 0 auto;
+    margin: -13% auto 0 auto;
 
     #icon {
       color: initial;
-      position: relative;
+      // position: relative;
       opacity: 0.6;
       font-size: 4em;
       cursor: pointer;
@@ -142,7 +143,19 @@ header {
 
 //EXTRA SMALL devices (phones up to 768px):
 @media only screen and (max-width: 768px) {
-  // Style goes here
+  header {
+    .row {
+      height: 100vh;
+
+      video {
+        width: auto;
+      }
+
+      a {
+        margin: -25% auto 0 auto;
+      }
+    }
+  }
   //
 }
 //// END EXTRA SMALL DEVICES
