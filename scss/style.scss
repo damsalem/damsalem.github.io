@@ -33,7 +33,7 @@ img {
 }
 
 nav {
-  background-color: rgba(237, 237, 237, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 
   .navigation {
     padding-left: 100px;
@@ -53,75 +53,87 @@ nav {
 header {
   text-align: center;
   overflow: hidden;
+  background: url(../images/aerial-photography.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 600px;
 
-  .row {
-    align-items: center;
-    max-height: 100vh;
-    overflow: hidden;
-    position: relative;
+  .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: 100%;
+    top: 0;
+    z-index: 2;
   }
 
-  video {
-    width: 100%;
+  .container {
+    position: relative;
     height: 100%;
+    z-index: 3;
+  }
+
+  .row {
+    // height: 100%;
+    // align-items: center;
   }
 
   .h-primary-content {
-    position: absolute;
+    margin-top: 200px;
 
     h1 {
-      font-size: 2.5em;
+      font-size: 3em;
+      font-weight: bold;
+      color: #fff;
     }
     h3 {
-      font-size: 1.5em;
-      font-weight: bold;
+      font-size: 1.3em;
+      color: #fff;
+      // font-weight: bold;
     }
   }
 
-  a {
-    // margin: -13% auto 0 auto; Works on FF
+  // a {
+  //   position: absolute;
+  //   left: 40%;
+  //   right: 40%;
+  //   bottom: 5%;
 
-    position: absolute;
-    left: 40%;
-    right: 40%;
-    bottom: 5%;
+  //   #icon {
+  //     color: #fff;
+  //     // position: relative;
+  //     opacity: 0.6;
+  //     font-size: 4em;
+  //     cursor: pointer;
 
-    #icon {
-      color: initial;
-      // position: relative;
-      opacity: 0.6;
-      font-size: 4em;
-      cursor: pointer;
-
-      &:hover {
-        opacity: 0.3;
-      }
-    }
-  }
+  //     &:hover {
+  //       opacity: 0.3;
+  //     }
+  //   }
+  // }
 }
 
 .contact-me {
-  margin: 80px auto 0px auto;
+  margin: 50px auto 0px auto;
 
   .cm-col {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     .contact-btn {
       padding: 0.5em 2em;
-      background-color: #248f24;
+      background-color: #1823b4;
       transition: 500ms;
 
       &:hover {
-        background-color: #29a329;
+        background-color: #0e156d;
         // text-decoration: underline;
       }
 
       a {
         color: #fff;
-        font-size: 2em;
-        font-weight: bold;
-        text-transform: uppercase;
+        font-size: 1.3em;
+        // font-weight: bold;
 
         &:hover {
           text-decoration: none;
@@ -132,11 +144,12 @@ header {
 }
 
 #projects {
-  margin: 30px 0px 0px 0px;
+  margin: 30px 0px 80px 0px;
 
   h2 {
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
     padding: 50px 0;
   }
 
@@ -144,51 +157,163 @@ header {
     margin-top: -50px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .media-box {
+    position: relative;
     width: auto;
-    height: auto;
+    height: 181px;
     overflow: hidden;
     margin: 50px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    video {
-      width: 100%;
-      height: auto;
+    // For p IDs
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h3 {
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      z-index: 3;
     }
+
     img {
       width: 100%;
       height: auto;
     }
+
+    .blue-overlay {
+      position: absolute;
+      background-color: #000;
+      height: 100%;
+      width: 100%;
+      opacity: 0.5;
+      z-index: 2;
+      top: 0;
+      transition-duration: 500ms;
+
+      &:hover {
+        opacity: 0.4;
+      }
+    }
   }
 
-  .proj-2 {
+  #p1 {
+    background-image: url(../images/decryptionary.png);
+  }
+  #p2 {
+    background-image: url(../images/tileplus-site.png);
+  }
+  #p3 {
+    background-image: url(../images/catch-of-the-day.png);
+  }
+  #p4 {
+    background-image: url(../images/gatepro.png);
+  }
+  #p5 {
+    background-image: url(../images/psd-html.png);
+  }
+  #p6 {
+    background-image: url(../images/pizza-site.png);
+  }
+  #p7 {
+    background-image: url(../images/green-heart.png);
+  }
+  #p8 {
+    background-image: url(../images/perfect-hair.png);
   }
 }
 
-#skills {
-  padding-top: 30px;
+#other-projects {
+  background-color: #d9d9d9;
+  padding: 80px 0;
 
-  h2 {
-    text-align: center;
-    font-weight: bold;
-    padding: 50px 0;
+  .op-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   img {
-    width: 100px;
+    height: 350px;
+    width: auto;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 0 50px 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  ul {
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  li {
+    list-style: none;
+    line-height: 1.5em;
+  }
+}
+
+#interested {
+  margin: 80px 0;
+  h2 {
+    text-align: center;
+  }
+}
+
+#about {
+  background-color: #d9d9d9;
+  padding: 80px;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px 0px 50px 0;
+  }
+
+  h3 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  img {
+    width: 70px;
     height: auto;
   }
 
-  .row {
-    justify-content: center;
+  .for-icons {
+    // padding-top: 50%;
   }
 }
 
 #achievements {
-  padding-top: 30px;
+  padding: 80px 0;
+
   h2 {
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
-    padding: 50px 0;
+    padding: 0 0 50px 0;
   }
 
   .s1 {
@@ -198,14 +323,13 @@ header {
 
   .media-box {
     margin: 50px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    video {
-      width: 100%;
-      height: 100%;
-    }
     img {
-      width: 100%;
-      height: 100%;
+      width: 50px;
+      height: auto;
     }
   }
 }
@@ -215,6 +339,7 @@ header {
 
   h2 {
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
     padding: 50px 0;
   }
@@ -237,6 +362,22 @@ header {
   }
 }
 
+#closing {
+  background-color: #d9d9d9;
+  margin: 30px 0px 0px 0px;
+  padding: 50px 0;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  a {
+    padding: 15px 0;
+  }
+}
+
 .footer {
   text-align: center;
   padding: 3em 0 1.5em 3em;
@@ -249,16 +390,8 @@ header {
 //EXTRA SMALL devices (phones up to 768px):
 @media only screen and (max-width: 768px) {
   header {
-    .row {
-      height: 100vh;
-
-      video {
-        width: auto;
-      }
-
-      a {
-        margin: -25% auto 0 auto;
-      }
+    .h-primary-content {
+      margin-top: 50px;
     }
   }
   //
@@ -280,7 +413,7 @@ header {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   #projects {
     .media-box {
-      height: 247px;
+      height: 165px;
     }
   }
 
@@ -297,8 +430,7 @@ header {
 @media only screen and (min-width: 1200px) {
   #projects {
     .media-box {
-      width: 510px;
-      height: 280px;
+      height: 198px;
     }
   }
 
