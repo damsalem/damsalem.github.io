@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700&display=swap"
       rel="stylesheet"
     />
+    <link href="dist/lity.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -107,8 +108,6 @@
               </div>
             </div>
           </div>
-
-          <!-- <a href="#icon-scroll"><i id="icon" class="fas fa-sort-down"></i></a> -->
         </div>
       </div>
       <div class="overlay"></div>
@@ -117,20 +116,108 @@
     <div id="icon-scroll" class="container"></div>
 
     <section id="projects">
-      <div class="container">
+      <div class="container-fluid">
         <h2>Recent Web Projects</h2>
 
         <div class="row proj-1">
           <div class="col-md-6 col-lg-4">
+            <a href="#decryptionary" data-lity>
+              <div id="p1" class="media-box">
+                <h3>Decryptionary</h3>
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#tileplus" data-lity>
+              <div id="p2" class="media-box">
+                <h3>Tile Plus</h3>
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#catch" data-lity>
+              <div id="p3" class="media-box">
+                <h3>Catch of The Day</h3>
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#gate" data-lity>
+              <div id="p4" class="media-box">
+                <h3>Gate Pro</h3>
+                >
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#psd" data-lity>
+              <div id="p5" class="media-box">
+                <h3>PSD to HTML</h3>
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#pizza" data-lity>
+              <div id="p6" class="media-box">
+                <h3>Pizza Site</h3>
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4 offset-lg-2">
+            <a href="#green-heart" data-lity>
+              <div id="p7" class="media-box">
+                <h3>Green Heart</h3>
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#perfect-hair" data-lity>
+              <div id="p8" class="media-box">
+                <h3>Perfect Hair</h3>
+                >
+                <div class="blue-overlay"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOXES -->
+    <div id="decryptionary" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://decryptionary.com/"
             >
-              <div id="p1" class="media-box">
-                <h3>Decryptionary</h3>
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/decryptionary.png" />
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://decryptionary.com/"
+            >
+              <h3>Decryptionary.com</h3>
             </a>
             <ul>
               <li>Constructed within Wordpress.</li>
@@ -146,17 +233,30 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-md-6 col-lg-4">
+    <div id="tileplus" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="http://tileplus.net"
+              href="http://www.tileplus.net/"
             >
-              <div id="p2" class="media-box">
-                <h3>Tile Plus</h3>
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/tileplus-site.png" />
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://www.tileplus.net/"
+            >
+              <h3>TilePlus.net</h3>
             </a>
             <ul>
               <li>An early project constructed using a WYSIWYG editor.</li>
@@ -182,17 +282,30 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-md-6 col-lg-4">
+    <div id="catch" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://exercise.decryptionary.com/"
             >
-              <div id="p3" class="media-box">
-                <h3>Catch of The Day</h3>
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/catch-of-the-day.png" />
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://exercise.decryptionary.com/"
+            >
+              <h3>Catch Of The Day</h3>
             </a>
             <ul>
               <li>
@@ -213,35 +326,59 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-md-6 col-lg-4">
+    <div id="gate" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://gatepro.nyc/"
             >
-              <div id="p4" class="media-box">
-                <h3>Gate Pro</h3>
-                >
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/gatepro.png" />
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://gatepro.nyc/"
+            >
+              <h3>GatePro.nyc</h3>
             </a>
             <ul>
               <li>A WordPress website I designed, and built out.</li>
               <li>Designed to educate visitors and convert them into leads.</li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-md-6 col-lg-4">
+    <div id="psd" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="http://theamsalems.com/Convert-PSD-to-HTML/"
+              href="https://theamsalems.com/Convert-PSD-to-HTML/"
             >
-              <div id="p5" class="media-box">
-                <h3>PSD to HTML</h3>
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/psd-html.png" />
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://theamsalems.com/Convert-PSD-to-HTML/"
+            >
+              <h3>PSD to HTML</h3>
             </a>
             <ul>
               <li>
@@ -258,17 +395,29 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-md-6 col-lg-4">
+    <div id="pizza" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://theamsalems.com/Interactive-Javascript-Pizza-Website/"
             >
-              <div id="p6" class="media-box">
-                <h3>Pizza Site</h3>
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/pizza-site.png" />
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://theamsalems.com/Interactive-Javascript-Pizza-Website/"
+            >
+              <h3>Pizza Site</h3>
             </a>
             <ul>
               <li>Constructed using HTML, CSS, and Javascript.</li>
@@ -283,35 +432,29 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-md-6 col-lg-4 offset-lg-2">
+    <div id="green-heart" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="http://green-heart.club/"
             >
-              <div id="p7" class="media-box">
-                <h3>Green Heart</h3>
-                <div class="blue-overlay"></div>
-              </div>
+              <img src="./images/green-heart.png" />
             </a>
-            <ul>
-              <li>An e-commerce website I wireframed.</li>
-              <li>Designed to educate visitors and drive them to Amazon.</li>
-            </ul>
           </div>
-
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://perfecthair.club/"
+              href="http://green-heart.club/"
             >
-              <div id="p8" class="media-box">
-                <h3>Perfect Hair</h3>
-                >
-                <div class="blue-overlay"></div>
-              </div>
+              <h3>Green-Heart.club</h3>
             </a>
             <ul>
               <li>An e-commerce website I wireframed.</li>
@@ -320,7 +463,36 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <div id="perfect-hair" class="lity-hide lightboxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://perfecthair.club/"
+            >
+              <img src="./images/perfect-hair.png" />
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://perfecthair.club/"
+            >
+              <h3>PerfectHair.club</h3>
+            </a>
+            <ul>
+              <li>An e-commerce website I wireframed.</li>
+              <li>Designed to educate visitors and drive them to Amazon.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section id="other-projects">
       <div class="container">
@@ -384,10 +556,12 @@
         <div class="row">
           <div class="col-md-6">
             <h3>Bio</h3>
+            <p class="bigger-text">
+              As a Front End Developer, I am proficient in HTML, CSS, SCSS,
+              WordPress, JS and GIT. I have the ability to work in PHP and SQL
+              after building a variety of websites in WordPress.
+            </p>
             <p>
-              <strong>As a Front End Developer,</strong> I am proficient in
-              HTML, CSS, SCSS, WordPress, JS and GIT. I have the ability to work
-              in PHP and SQL after building a variety of websites in WordPress.
               My local builds are done within MAMP and I have experience using
               WAMP. My ideal approach to coding would be using the Agile
               software development approach and Scrum methodology.
@@ -416,7 +590,7 @@
             <div class="row for-icons">
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-html.png"
+                  src="./images/blue-shield-html.png"
                   alt="html-language"
                   title="html-language"
                   loop="infinite"
@@ -424,7 +598,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-css.png"
+                  src="./images/blue-shield-css.png"
                   alt="css-language"
                   title="css-language"
                   loop="infinite"
@@ -432,7 +606,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-php.png"
+                  src="./images/blue-shield-php.png"
                   alt="php-language"
                   title="php-language"
                   loop="infinite"
@@ -440,7 +614,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-wp.png"
+                  src="./images/blue-shield-wp.png"
                   alt="wordpress"
                   title="wordpress"
                   loop="infinite"
@@ -448,7 +622,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-js.png"
+                  src="./images/blue-shield-js.png"
                   alt="js-language"
                   title="js-language"
                   loop="infinite"
@@ -456,7 +630,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-react.png"
+                  src="./images/blue-shield-react.png"
                   alt="sql-language"
                   title="sql-language"
                   loop="infinite"
@@ -464,7 +638,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-wireframe.png"
+                  src="./images/blue-shield-wireframe.png"
                   alt="c-sharp-language"
                   title="c-sharp-language"
                   loop="infinite"
@@ -472,7 +646,7 @@
               </div>
               <div class="col-6 col-sm-3 text-center shields">
                 <img
-                  src="./images/shield-agile.png"
+                  src="./images/blue-shield-agile.png"
                   alt="agile-methodology"
                   title="agile-methodology"
                   loop="infinite"
@@ -593,19 +767,19 @@
       <h2>Contact Me</h2>
       <div class="container contact-me">
         <div class="row">
-          <div class="col-sm-3 cm-col">
+          <div class="col-sm-6 col-md-3 cm-col">
             <a href="mailto:dani@theamsalems.com"
               >Email Me <i class="fas fa-file-signature"></i
             ></a>
           </div>
 
-          <div class="col-sm-3 cm-col">
+          <div class="col-sm-6 col-md-3 cm-col">
             <a href="./pdfs/dani-amsalem-web-resume.pdf"
               >View Resume<i class="fas fa-download"></i
             ></a>
           </div>
 
-          <div class="col-sm-3 cm-col">
+          <div class="col-sm-6 col-md-3 cm-col">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -614,7 +788,7 @@
             ></a>
           </div>
 
-          <div class="col-sm-3 cm-col">
+          <div class="col-sm-6 col-md-3 cm-col">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -628,35 +802,6 @@
 
     <div class="footer">
       <ul class="nav">
-        <li>
-          <small
-            ><a
-              class="nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/dani-amsalem/"
-              >LinkedIn</a
-            ></small
-          >
-        </li>
-        <li>
-          <small
-            ><a
-              class="nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/damsalem"
-              >GitHub</a
-            ></small
-          >
-        </li>
-        <li>
-          <small
-            ><a class="nav-link" href="mailto:dani@theamsalems.com"
-              >Email Me</a
-            ></small
-          >
-        </li>
         <li>
           <small class="nav-link">&copy;2018-2019 Dani Amsalem</small>
         </li>
@@ -681,5 +826,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/cb56b56e65.js"></script>
+    <!-- <script src="vendor/jquery.js"></script> -->
+    <script src="dist/lity.js"></script>
   </body>
 </html>

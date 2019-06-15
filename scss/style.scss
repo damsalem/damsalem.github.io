@@ -73,8 +73,6 @@ header {
   }
 
   .row {
-    // height: 100%;
-    // align-items: center;
   }
 
   .h-primary-content {
@@ -88,28 +86,8 @@ header {
     h3 {
       font-size: 1.3em;
       color: #fff;
-      // font-weight: bold;
     }
   }
-
-  // a {
-  //   position: absolute;
-  //   left: 40%;
-  //   right: 40%;
-  //   bottom: 5%;
-
-  //   #icon {
-  //     color: #fff;
-  //     // position: relative;
-  //     opacity: 0.6;
-  //     font-size: 4em;
-  //     cursor: pointer;
-
-  //     &:hover {
-  //       opacity: 0.3;
-  //     }
-  //   }
-  // }
 }
 
 .contact-me {
@@ -126,14 +104,12 @@ header {
       transition: 500ms;
 
       &:hover {
-        background-color: #0e156d;
-        // text-decoration: underline;
+        background-color: #1f2ce0;
       }
 
       a {
         color: #fff;
         font-size: 1.3em;
-        // font-weight: bold;
 
         &:hover {
           text-decoration: none;
@@ -145,6 +121,11 @@ header {
 
 #projects {
   margin: 30px 0px 80px 0px;
+
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
   h2 {
     font-weight: bold;
@@ -159,12 +140,19 @@ header {
 
   a {
     text-decoration: none;
+    color: #1823b4;
+
+    &:hover {
+      color: #1f2ce0;
+      text-decoration: underline;
+    }
   }
 
   .media-box {
     position: relative;
-    width: auto;
-    height: 181px;
+    width: 100%;
+    height: auto;
+    // height: 181px;
     overflow: hidden;
     margin: 50px 0px 30px 0px;
     display: flex;
@@ -172,9 +160,10 @@ header {
     align-items: center;
 
     // For p IDs
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    padding: 85px 0px;
 
     h3 {
       color: #fff;
@@ -190,10 +179,10 @@ header {
 
     .blue-overlay {
       position: absolute;
-      background-color: #000;
+      background-color: #151e9d;
       height: 100%;
       width: 100%;
-      opacity: 0.5;
+      opacity: 0.8;
       z-index: 2;
       top: 0;
       transition-duration: 500ms;
@@ -205,33 +194,65 @@ header {
   }
 
   #p1 {
-    background-image: url(../images/decryptionary.png);
+    background-image: url(../images/bw-decryptionary.jpg);
   }
   #p2 {
-    background-image: url(../images/tileplus-site.png);
+    background-image: url(../images/bw-tileplus-site.jpg);
   }
   #p3 {
-    background-image: url(../images/catch-of-the-day.png);
+    background-image: url(../images/bw-catch-of-the-day.jpg);
   }
   #p4 {
-    background-image: url(../images/gatepro.png);
+    background-image: url(../images/bw-gatepro.jpg);
   }
   #p5 {
-    background-image: url(../images/psd-html.png);
+    background-image: url(../images/bw-psd-html.jpg);
   }
   #p6 {
-    background-image: url(../images/pizza-site.png);
+    background-image: url(../images/bw-pizza-site.jpg);
   }
   #p7 {
-    background-image: url(../images/green-heart.png);
+    background-image: url(../images/bw-green-heart.jpg);
   }
   #p8 {
-    background-image: url(../images/perfect-hair.png);
+    background-image: url(../images/bw-perfect-hair.jpg);
+  }
+}
+
+.lity-content {
+  background-color: #fff;
+
+  &:after {
+    box-shadow: none;
+  }
+
+  .lightboxes {
+    padding: 50px 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1823b4;
+
+    &:hover {
+      color: #1f2ce0;
+      text-decoration: underline;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: bold;
   }
 }
 
 #other-projects {
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 0.7);
   padding: 80px 0;
 
   .op-1 {
@@ -271,6 +292,16 @@ header {
     list-style: none;
     line-height: 1.5em;
   }
+
+  a {
+    text-decoration: none;
+    color: #1823b4;
+
+    &:hover {
+      color: #1f2ce0;
+      text-decoration: underline;
+    }
+  }
 }
 
 #interested {
@@ -281,7 +312,7 @@ header {
 }
 
 #about {
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 0.7);
   padding: 80px;
 
   h2 {
@@ -296,13 +327,19 @@ header {
     padding-bottom: 30px;
   }
 
+  .bigger-text {
+    font-size: 1.2em;
+  }
+
   img {
     width: 70px;
     height: auto;
   }
 
   .for-icons {
-    // padding-top: 50%;
+    .shields {
+      padding: 10px 0;
+    }
   }
 }
 
@@ -316,13 +353,31 @@ header {
     padding: 0 0 50px 0;
   }
 
+  a {
+    text-decoration: none;
+    color: #1823b4;
+
+    &:hover {
+      color: #1f2ce0;
+      text-decoration: underline;
+    }
+  }
+
   .s1 {
     align-items: center;
     margin-top: -50px;
   }
 
+  .row {
+    .col-md-4 {
+      .row {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
   .media-box {
-    margin: 50px 0px 30px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,36 +389,8 @@ header {
   }
 }
 
-#personal {
-  padding-top: 30px;
-
-  h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 50px 0;
-  }
-
-  h3 {
-    text-align: center;
-    padding: 50px 0;
-  }
-
-  .s1 {
-    align-items: center;
-  }
-
-  .media-box {
-    padding-bottom: 30px;
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
-
 #closing {
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 0.7);
   margin: 30px 0px 0px 0px;
   padding: 50px 0;
 
@@ -374,7 +401,15 @@ header {
   }
 
   a {
+    text-decoration: none;
+    color: #1823b4;
     padding: 15px 0;
+    display: inline;
+
+    &:hover {
+      color: #1f2ce0;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -402,7 +437,7 @@ header {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   #projects {
     .media-box {
-      height: 181px;
+      // height: 181px;
     }
   }
   //
@@ -413,7 +448,7 @@ header {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   #projects {
     .media-box {
-      height: 165px;
+      // height: 165px;
     }
   }
 
@@ -430,7 +465,7 @@ header {
 @media only screen and (min-width: 1200px) {
   #projects {
     .media-box {
-      height: 198px;
+      // height: 198px;
     }
   }
 
