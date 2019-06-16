@@ -94,10 +94,18 @@
               <br />
               I'm a web developer and
               <br />
-              I love scalable systems.
-            </h1>
+              I enjoy creating
+              <div id="typed-strings">
+                  <p>scalable systems.</p>
+                  <p>documentation.</p>
+                  <p>walkthroughs.</p>
+                  <p>tutorials.</p>
+                  <p>guides.</p>
+                </div>
+                <span id="typed"></span>
+
             <h3>Particularly simple ones.</h3>
-          </div>
+              </div>
 
           <div class="container-fluid contact-me">
             <div class="row">
@@ -805,6 +813,18 @@
     </div>
 
     <!-- SCRIPTS -->
+
+    <script src="js/typed.min.js"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        stringsElement: "#typed-strings",
+        startDelay: 500,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 1200,
+        loop: true
+      });
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
