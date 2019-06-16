@@ -140,12 +140,12 @@ header {
   }
 
   a {
-    text-decoration: none;
-    color: #1823b4;
-
     &:hover {
-      color: #1f2ce0;
-      text-decoration: underline;
+      text-decoration: none;
+    }
+    &:hover .overlay {
+      // background-color: #000;
+      opacity: 0.5;
     }
   }
 
@@ -173,24 +173,20 @@ header {
       z-index: 3;
     }
 
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    .blue-overlay {
+    .overlay {
       position: absolute;
-      background-color: #151e9d;
+      background-color: #090d43;
       height: 100%;
       width: 100%;
-      opacity: 0.8;
+      opacity: 0.7;
       z-index: 2;
       top: 0;
       transition-duration: 500ms;
 
       &:hover,
       &:active {
-        opacity: 0.6;
+        // background-color: #000;
+        opacity: 0.5;
       }
     }
   }
@@ -235,6 +231,34 @@ header {
   img {
     width: 100%;
     height: auto;
+  }
+
+  .visit {
+    background-color: #1823b4;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 35%;
+    right: 35%;
+    display: inline-block;
+
+    &:hover {
+      background-color: #1f2ce0;
+    }
+    &:hover a {
+      text-decoration: underline;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
   }
 
   a {
