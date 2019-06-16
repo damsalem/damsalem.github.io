@@ -187,7 +187,8 @@ header {
       top: 0;
       transition-duration: 500ms;
 
-      &:hover {
+      &:hover,
+      &:active {
         opacity: 0.6;
       }
     }
@@ -313,7 +314,7 @@ header {
 
 #about {
   background-color: rgba(217, 217, 217, 0.7);
-  padding: 80px;
+  padding: 80px 0;
 
   h2 {
     text-align: center;
@@ -432,6 +433,12 @@ header {
 
   .lity-content .lightboxes {
     padding: 25px 0;
+  }
+
+  #other-projects {
+    img {
+      height: 250px;
+    }
   }
   //
 }
