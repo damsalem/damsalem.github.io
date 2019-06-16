@@ -103,6 +103,7 @@ header {
       padding: 0.5em 2em;
       background-color: #1823b4;
       transition: 500ms;
+      border: none;
 
       &:hover {
         background-color: #1f2ce0;
@@ -159,6 +160,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 
     // For p IDs
     background-size: cover;
@@ -231,6 +233,7 @@ header {
   img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
   }
 
   .visit {
