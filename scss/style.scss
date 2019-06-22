@@ -84,10 +84,16 @@ header {
       font-size: 1.3em;
       color: #fff;
     }
+
+    .stylized {
+      // text-decoration: underline;
+      font-style: italic;
+    }
   }
 
   #typed {
-    color: #fff;
+    // text-decoration: underline;
+    font-style: italic;
   }
 }
 
@@ -102,7 +108,7 @@ header {
     .contact-btn {
       padding: 0.5em 2em;
       background-color: #1823b4;
-      transition: 500ms;
+      transition: 300ms;
       border: none;
 
       &:hover {
@@ -144,8 +150,8 @@ header {
     &:hover {
       text-decoration: none;
     }
+    // For hover on text, change overlay
     &:hover .overlay {
-      // background-color: #000;
       opacity: 0.5;
     }
   }
@@ -154,7 +160,6 @@ header {
     position: relative;
     width: 100%;
     height: auto;
-    // height: 181px;
     overflow: hidden;
     margin: 50px 0px 30px 0px;
     display: flex;
@@ -177,17 +182,16 @@ header {
 
     .overlay {
       position: absolute;
-      background-color: #090d43;
+      background-color: #000;
       height: 100%;
       width: 100%;
-      opacity: 0.7;
+      opacity: 0.6;
       z-index: 2;
       top: 0;
-      transition-duration: 500ms;
+      transition: 300ms;
 
       &:hover,
       &:active {
-        // background-color: #000;
         opacity: 0.5;
       }
     }
@@ -363,6 +367,12 @@ header {
   img {
     width: 70px;
     height: auto;
+    transition: 300ms;
+
+    &:hover {
+      transform: translateY(-5px);
+      opacity: 1;
+    }
   }
 
   .for-icons {
@@ -414,6 +424,12 @@ header {
     img {
       width: 50px;
       height: auto;
+      transition: 300ms;
+
+      &:hover {
+        transform: translateY(-5px);
+        opacity: 1;
+      }
     }
   }
 }
