@@ -86,13 +86,11 @@ header {
     }
 
     .stylized {
-      // text-decoration: underline;
       font-style: italic;
     }
   }
 
   #typed {
-    // text-decoration: underline;
     font-style: italic;
   }
 }
@@ -105,23 +103,23 @@ header {
     justify-content: center;
     align-items: center;
 
-    .contact-btn {
-      padding: 0.5em 2em;
-      background-color: #1823b4;
-      transition: 300ms;
-      border: none;
+    a {
+      text-decoration: none;
+    }
+
+    .btn-contact {
+      padding: 15px 25px;
+      background: linear-gradient(to bottom, #3541e3, #1823b4);
+      background: -webkit-linear-gradient(#3541e3, #1823b4);
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1.3em;
 
       &:hover {
-        background-color: #1f2ce0;
-      }
-
-      a {
+        background: linear-gradient(to bottom, #1f22e0, #151e9d);
+        background: -webkit-linear-gradient(#1f22e0, #151e9d);
         color: #fff;
-        font-size: 1.3em;
-
-        &:hover {
-          text-decoration: none;
-        }
+        text-decoration: none;
       }
     }
   }
@@ -235,6 +233,10 @@ header {
 
   .lightboxes {
     padding: 50px 0;
+
+    ul {
+      text-align: left;
+    }
   }
 
   img {
@@ -243,31 +245,23 @@ header {
     border-radius: 5px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .visit {
-    background-color: #1823b4;
     padding: 10px 25px;
+    background: linear-gradient(to bottom, #3541e3, #1823b4);
+    background: -webkit-linear-gradient(#3541e3, #1823b4);
     border-radius: 5px;
-    cursor: pointer;
-    position: relative;
-    left: 35%;
-    right: 35%;
-    display: inline-block;
+    color: #fff;
+    font-size: 1.3em;
 
     &:hover {
-      background-color: #1f2ce0;
-    }
-    &:hover a {
-      text-decoration: underline;
-    }
-
-    a {
-      text-decoration: none;
+      background: linear-gradient(to bottom, #1f22e0, #151e9d);
+      background: -webkit-linear-gradient(#1f22e0, #151e9d);
       color: #fff;
-
-      &:hover {
-        color: #fff;
-        text-decoration: underline;
-      }
+      text-decoration: none;
     }
   }
 
@@ -441,6 +435,16 @@ header {
   background-color: rgba(217, 217, 217, 0.7);
   margin: 30px 0px 0px 0px;
   padding: 50px 0;
+
+  .closing-contact {
+    margin: 50px auto 0px auto;
+
+    .cm-col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 
   h2 {
     text-align: center;
