@@ -198,6 +198,12 @@ header {
   #p-ampi {
     background-image: url(../images/bw-ampi.jpg);
   }
+  #p-power {
+    background-image: url(../images/bw-powerplay.jpg);
+  }
+  #p-courtyard {
+    background-image: url(../images/bw-courtyard-farm.jpg);
+  }
   #p-decrypt {
     background-image: url(../images/bw-decryptionary.jpg);
   }
@@ -259,6 +265,7 @@ header {
     border-radius: 5px;
     color: #fff;
     font-size: 1.3em;
+    transition: 300ms;
 
     &:hover {
       background: linear-gradient(to bottom, #1f22e0, #151e9d);
@@ -266,6 +273,14 @@ header {
       color: #fff;
       text-decoration: none;
     }
+  }
+  .nope {
+    padding: 10px 25px;
+    background: linear-gradient(to bottom, #d3d3d3, #acacac);
+    background: -webkit-linear-gradient(#d3d3d3, #acacac);
+    border-radius: 5px;
+    color: #000;
+    font-size: 1.3em;
   }
 
   a {
