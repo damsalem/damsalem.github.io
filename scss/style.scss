@@ -329,13 +329,14 @@ header {
   }
 
   .visit {
-    padding: 10px 25px;
-    background: linear-gradient(to bottom, #3541e3, #1823b4);
-    background: -webkit-linear-gradient(#3541e3, #1823b4);
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1.3em;
-    transition: 300ms;
+		display: inline-block;
+		padding: 10px 25px;
+		background: linear-gradient(to bottom, #3541e3, #1823b4);
+		background: -webkit-linear-gradient(#3541e3, #1823b4);
+		border-radius: 5px;
+		color: #fff;
+		font-size: 1.3em;
+		transition: 300ms;
 
     &:hover {
       background: linear-gradient(to bottom, #1f22e0, #151e9d);
