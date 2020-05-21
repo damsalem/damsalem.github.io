@@ -1,0 +1,8 @@
+# Ignore finder organization files
+.DS_Store
+
+# Ignore PrePros files
+prepros-6.config
+
+# Ignore css files in sass folder which are not called
+/scss/*.css
